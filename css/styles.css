@@ -42,6 +42,13 @@ body {
   color: var(--text-blue);
 }
 
+.buttons {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
 .buttons .btn-text {
   color: var(--text-dark-gray);
   border: none;
@@ -107,6 +114,24 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  color: var(--text-gray);
+}
+
+/*Портфолио*/
+
+.projects .projects-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--text-dark-gray);
+}
+
+.projects .projects-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
   color: var(--text-gray);
 }
 
