@@ -1,0 +1,27 @@
+/*Шрифты*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+
+/*Цвет ссылок*/
+
+.link {
+  color: var(--text-dark-gray);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--text-blue);
+}
+
+.buttons .btn-text {
+  color: var(--text-dark-gray);
+}
+
+.btn-text:hover {
+  color: var(--text-white);
+}
