@@ -8,7 +8,6 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -28,9 +27,9 @@ body {
 
 /*ссылки, кнопки/main*/
 
-.link {
+.link,
+.link-current {
   color: var(--text-dark-gray);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -38,12 +37,12 @@ body {
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.link-current {
   color: var(--text-blue);
 }
 
 .buttons {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -63,24 +62,19 @@ body {
   color: var(--text-white);
   border: none;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 30px;
-  letter-spacing: 0.06em;
 }
 
 /*Заголовки секций*/
 
 .hero .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
   color: var(--text-white);
 }
 
 .section .section-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -88,7 +82,6 @@ body {
 }
 
 .section .section-subtitle {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -102,7 +95,6 @@ body {
 /*Команда*/
 
 .team {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -110,7 +102,6 @@ body {
 }
 
 .profession {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -120,7 +111,6 @@ body {
 /*Портфолио*/
 
 .projects .projects-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -128,7 +118,6 @@ body {
 }
 
 .projects .projects-text {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
