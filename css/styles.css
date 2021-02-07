@@ -8,6 +8,10 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .logo .logo-blue {
@@ -18,10 +22,19 @@ body {
   color: var(--text-white);
 }
 
+.logo .logo-black {
+  color: var(--text-black);
+}
+
 /*ссылки, кнопки/main*/
 
 .link {
   color: var(--text-dark-gray);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -42,9 +55,62 @@ body {
 .btn-hero {
   color: var(--text-white);
   border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 
-/*подвал*/
+/*Заголовки секций*/
+
+.hero .hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--text-white);
+}
+
+.section .section-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--text-black);
+}
+
+.section .section-subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text-dark-gray);
+}
+
+.section .section-text {
+  color: var(--text-gray);
+}
+
+/*Команда*/
+
+.team {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--text-black);
+}
+
+.profession {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--text-gray);
+}
+
+/*Подвал*/
 .address .address-link {
   color: var(--text-white-op06);
 }
